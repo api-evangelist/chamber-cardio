@@ -1,9 +1,34 @@
 aid: chamber-cardio
 name: Chamber Cardio
-description: Chamber Cardio is a company surfaced as a portfolio company of general-catalyst and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Chamber Cardio is a Washington, D.C.-based healthcare technology company
+  building a cardiology-focused platform for value-based care. Chamber partners
+  with cardiology practices and health plans to align clinical signals,
+  workflows, and patient data so cardiologists can identify high-risk patients
+  earlier, close gaps against treatment guidelines, and reduce administrative
+  burden. Its workflow-integrated AI surfaces clearer signal from the large
+  volumes of cardiovascular data generated in care, supporting better patient
+  outcomes and financial predictability for payers as cardiology moves beyond
+  fee-for-service. The company supports more than 500 cardiologists across seven
+  states and raised a $60M Series A led by Frist Cressey Ventures, with
+  participation from General Catalyst, AlleyCorp, American Family Ventures,
+  Company Ventures, Optum Ventures, Healthworx Ventures, and Black Opal Ventures.
+  Chamber does not currently publish a public developer API or documentation
+  portal; its platform is built on a FHIR-based data stack (Medplum) with
+  internal REST and GraphQL services.
 url: https://raw.githubusercontent.com/api-evangelist/chamber-cardio/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/6994959a93cdeec790c08dc8/69a45bd8f71af4b4a27561db_Chamber-WhereCareComesTogether.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,12 +37,45 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Healthcare
+- Cardiology
+- Value-Based Care
+- Health Tech
+- FHIR
+- Care Coordination
+- Payers
 apis: []
+common:
+- type: DomainSecurity
+  url: security/chamber-cardio-domain-security.yml
+- url: https://www.chambercardio.com/
+  type: Website
+- url: https://www.chambercardio.com/blog
+  type: Blog
+- url: https://www.chambercardio.com/privacy-policy
+  type: PrivacyPolicy
+- url: https://trust.chambercardio.com
+  type: TrustCenter
+- url: security/chamber-cardio-trust-center.yml
+  type: TrustCenter
+  name: Chamber Cardio Trust Center (captured)
+- url: https://trust.chambercardio.com
+  type: Compliance
+  name: SOC 2 / HIPAA / ONC
+- url: https://github.com/chamber-cardio
+  type: GitHubOrganization
+- url: llms/chamber-cardio-llms.txt
+  type: LLMsTxt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

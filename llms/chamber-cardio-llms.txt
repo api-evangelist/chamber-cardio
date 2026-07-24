@@ -1,0 +1,18 @@
+# Chamber Cardio
+
+> Chamber Cardio is a Washington, D.C.-based healthcare technology company building a cardiology-focused platform for value-based care. It aligns cardiology signals, workflows, and patient data so cardiologists can identify high-risk patients earlier, close care gaps against treatment guidelines, and reduce administrative burden. Chamber supports 500+ cardiologists across seven states. Chamber does not currently publish a public developer API or documentation portal; its platform is built on a FHIR-based data stack (Medplum) with internal REST and GraphQL services.
+
+## Company
+
+- [Website](https://www.chambercardio.com/): Where Care Comes Together — value-based cardiology platform for practices and payers.
+- [Blog](https://www.chambercardio.com/blog): Company news, product, and value-based care insights.
+- [Trust Center](https://trust.chambercardio.com): Vanta-hosted security & compliance program (SOC 2 / HIPAA / ONC).
+- [Privacy Policy](https://www.chambercardio.com/privacy-policy)
+- [Careers](https://jobs.ashbyhq.com/chambercardio)
+- [GitHub](https://github.com/chamber-cardio): Public org (Tuva Health data forks).
+
+## Notes
+
+- No public developer API, OpenAPI/AsyncAPI spec, SDK, or developer portal has been published as of 2026-07-18.
+- Technology context (per the published Medplum case study): FHIR-based data platform on Medplum, Retool front-ends via BonFHIR, Node.js/AWS Lambda services, REST + GraphQL.
+- Funding: $60M Series A (Feb 2026) led by Frist Cressey Ventures; investors include General Catalyst, AlleyCorp, American Family Ventures, Company Ventures, Optum Ventures, Healthworx Ventures, Black Opal Ventures.

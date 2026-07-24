@@ -1,0 +1,22 @@
+generated: '2026-07-18'
+method: searched
+probe: true
+source: https://trust.chambercardio.com
+url: https://trust.chambercardio.com
+platform: Vanta Trust Center
+description: >-
+  Chamber Cardio operates a live, Vanta-hosted Trust Center at
+  trust.chambercardio.com/controls. The trust center page is JavaScript-rendered
+  (Vanta SPA), so the automated security-programs probe could not extract the
+  named certification list from its HTML; the trust center itself was verified
+  live (HTTP 200, canonical Vanta trust-report shell). The certifications below
+  are captured from the published Medplum engineering case study, which states
+  Chamber's platform has SOC 2, HIPAA, and ONC compliance built in. Treat the
+  live Vanta trust center as the authoritative, current source of record.
+certifications:
+  - {name: SOC 2, source: 'https://www.medplum.com/blog/chamber-cardio-case-study'}
+  - {name: HIPAA, source: 'https://www.medplum.com/blog/chamber-cardio-case-study'}
+  - {name: ONC, note: ONC Health IT certification, source: 'https://www.medplum.com/blog/chamber-cardio-case-study'}
+evidence:
+  - {source: https://trust.chambercardio.com, kind: trust-center, note: 'Live Vanta trust center (HTTP 200), certifications not machine-extractable from JS shell'}
+  - {source: https://www.medplum.com/blog/chamber-cardio-case-study, kind: case-study, keywords: [soc 2, hipaa, onc, compliant]}
