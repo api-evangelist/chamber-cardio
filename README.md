@@ -64,6 +64,85 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Chamber Cardio is a company surfaced as a portfolio company of general-catalyst and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Chamber Cardio is a Washington, D.C.-based healthcare technology company building a cardiology-focused platform for value-based care. Chamber partners with cardiology practices and health plans to align clinical signals, workflows, and patient data so cardiologists can identify high-risk patients earlier, close gaps against treatment guidelines, and reduce administrative burden. Its workflow-integrated AI surfaces clearer signal from the large volumes of cardiovascular data generated in care, supporting better patient outcomes and financial predictability for payers as cardiology moves beyond fee-for-service. The company supports more than 500 cardiologists across seven states and raised a $60M Series A led by Frist Cressey Ventures, with participation from General Catalyst, AlleyCorp, American Family Ventures, Company Ventures, Optum Ventures, Healthworx Ventures, and Black Opal Ventures. Chamber does not currently publish a public developer API or documentation portal; its platform is built on a FHIR-based data stack (Medplum) with internal REST and GraphQL services.
 
-Backed by: general-catalyst
+**Areas:** Company · Healthcare · Cardiology · Value-Based Care · Health Tech · FHIR · Care Coordination · Payers
+
+## Chamber Cardio on APIs.io
+
+Everything profiled for Chamber Cardio is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/chamber-cardio/](https://apis.io/providers/chamber-cardio/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Chamber Cardio Domain Security](https://apis.io/security/chamber-cardio/chamber-cardio-domain-security/)
+- [Chamber Cardio Trust Center](https://apis.io/security/chamber-cardio/chamber-cardio-trust-center/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.chambercardio.com/)
+- [Blog](https://www.chambercardio.com/blog)
+- [Compliance](https://trust.chambercardio.com)
+- [Trust centre](https://trust.chambercardio.com)
+- [Privacy policy](https://www.chambercardio.com/privacy-policy)
+- [GitHub](https://github.com/chamber-cardio)
+
+## API Evangelist rating
+
+**Kin Score 11.9** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 26.3 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 11.7** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/chamber-cardio/](https://apis.io/providers/chamber-cardio/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Chamber Cardio: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/chamber-cardio/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
